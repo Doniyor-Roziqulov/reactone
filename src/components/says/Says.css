@@ -1,0 +1,140 @@
+.says {
+    padding-top: 74px;
+    padding-bottom: 82px;
+}
+
+.says__text {
+    color: #646464;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.says__title {
+    color: #212121;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 99px;
+    text-align: center;
+}
+
+.says__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.says__bold {
+    display: block;
+    color: #212121;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.says__span {
+    color: #646464;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.says__deck {
+    color: #646464;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 155.556% */
+}
+
+.says__item {
+    border-radius: 70px 0px;
+    background-color: #fff;
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+    padding: 20px 10px 20px 50px;
+}
+
+@media only screen and (min-width: 500px) {
+    .says__item {
+        padding: 41px 38px 60px 99px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .says__bold {
+        font-size: 24px;
+    }
+
+    .says__span {
+        font-size: 16px;
+    }
+
+    .says__deck {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .says__title {
+        font-size: 48px;
+    }
+
+    .says__text {
+        font-size: 20px;
+    }
+
+    .says__item {
+        width: 571px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .says__list {
+        flex-direction: row;
+        column-gap: 20px;
+    }
+
+    .says__deck {
+        font-size: 14px;
+    }
+
+    .says__bold {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1120px) {
+    .says__bold {
+        font-size: 24px;
+    }
+
+    .says__deck {
+        font-size: 18px;
+    }
+
+    .says__item {
+        width: 571px;
+    }
+
+    .says__list {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 1260px) {
+    .says__list {
+        column-gap: 140px;
+        justify-content: flex-end;
+    }
+}

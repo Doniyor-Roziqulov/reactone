@@ -1,0 +1,93 @@
+.forget {
+    padding-top: 101px;
+    padding-bottom: 50px;
+}
+
+.forget__title {
+    color: #212121;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 58.333% */
+    letter-spacing: 3.84px;
+    padding-bottom: 37px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.forget__text {
+    color: #646464;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    margin-bottom: 30px;
+}
+
+.forget__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 0px;
+    background-color: #eee;
+}
+
+.forget__input {
+    width: 100%;
+    color: #646464;
+    text-align: left;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 305.556% */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    border-top-left-radius: 20px;
+    padding-left: 20px;
+}
+
+.forget__btn {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 305.556% */
+    border-radius: 0px 0px 20px 0px;
+    background-color: #37806b;
+    border: none;
+    padding: 10px 10px;
+}
+
+@media only screen and (min-width: 500px) {
+    .forget__input {
+        font-size: 18px;
+    }
+
+    .forget__btn {
+        font-size: 18px;
+        padding: 10px 42px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .forget__title {
+        font-size: 48px;
+        line-height: 45px;
+    }
+
+    .forget__text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .forget__form {
+        width: 772px;
+        margin: 0 auto;
+    }
+}
